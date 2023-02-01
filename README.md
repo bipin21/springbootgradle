@@ -2,6 +2,9 @@
 ### yml file link
 [application.yml](./src/main/resources/application.yml)
 
+### build file:
+[build gradle](./build.gradle)
+
 ### DB Configuration
 ```spring:
   datasource:
