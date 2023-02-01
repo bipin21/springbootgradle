@@ -18,7 +18,8 @@
 ```
 
 ### JPA, Hibernate and Postgres dependencies
-```implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+``` 
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation group: 'com.vladmihalcea', name: 'hibernate-types-52', version: '2.21.1'
 	implementation group: 'org.postgresql', name: 'postgresql', version: '42.3.4'
 ```
