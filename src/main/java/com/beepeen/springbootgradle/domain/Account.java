@@ -1,8 +1,8 @@
 package com.beepeen.springbootgradle.domain;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * @author bipinkarki
@@ -13,8 +13,8 @@ public class Account {
     @Column(name = "id", nullable = false)
     private int id;
 
-    private String firstName;
-    private String lastName;
+    private String firstname;
+    private String lastname;
 
     private String username;
     private String email;
