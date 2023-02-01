@@ -13,4 +13,10 @@ public class Account {
     @Column(name = "id", nullable = false)
     private int id;
 
+    private String firstName;
+    private String lastName;
+
+    private String username;
+    private String email;
+
 }
